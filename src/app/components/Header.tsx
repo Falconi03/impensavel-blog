@@ -26,37 +26,40 @@ function Header(props: {
       >
         <ul className="flex flex-col sm:flex-row  sm:items-center m-0 gap-8 sm:gap-20 list-none ">
           <li
-            onClick={() =>
+            onClick={() => {
+              setActive(!active);
               props.impensavel &&
-              window.scrollTo({
-                top: 0,
-                behavior: "smooth",
-              })
-            }
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+            }}
             className="w-fit cursor-pointer bg-gradient-to-r from-[#008448] to-[#05ff8e] bg-[length:0%_1px] bg-no-repeat transition-all ease-in-out duration-300 bg-left-bottom text-white hover:bg-[length:100%_1px] hover:drop-shadow-[0px_0px_4px_rgba(255,255,255)]"
           >
             Início
           </li>
           <li
-            onClick={() =>
+            onClick={() => {
+              setActive(!active);
               props.impensavel &&
-              window.scrollTo({
-                top: props.impensavel - 150,
-                behavior: "smooth",
-              })
-            }
+                window.scrollTo({
+                  top: props.impensavel - 150,
+                  behavior: "smooth",
+                });
+            }}
             className="w-fit cursor-pointer bg-gradient-to-r from-[#008448] to-[#05ff8e] bg-[length:0%_1px] bg-no-repeat transition-all ease-in-out duration-300 bg-left-bottom text-white hover:bg-[length:100%_1px] hover:drop-shadow-[0px_0px_4px_rgba(255,255,255)]"
           >
             Impensavel
           </li>
           <li
-            onClick={() =>
+            onClick={() => {
+              setActive(!active);
               props.blog &&
-              window.scrollTo({
-                top: props.blog - 150,
-                behavior: "smooth",
-              })
-            }
+                window.scrollTo({
+                  top: props.blog - 150,
+                  behavior: "smooth",
+                });
+            }}
             className="w-fit cursor-pointer bg-gradient-to-r from-[#008448] to-[#05ff8e] bg-[length:0%_1px] bg-no-repeat transition-all ease-in-out duration-300 bg-left-bottom text-white hover:bg-[length:100%_1px] hover:drop-shadow-[0px_0px_4px_rgba(255,255,255)]"
           >
             Blog
