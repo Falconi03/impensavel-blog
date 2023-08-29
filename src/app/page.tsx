@@ -1,13 +1,6 @@
-import { createClient } from "@/prismicio";
 import Wave from "./components/Wave";
-import Sobre from "./components/Sobre";
-import Blog from "./components/Blog";
 
 export default async function Home() {
-  const client = createClient();
-
-  const posts = await client.getAllByType("posts");
-
   return (
     <main>
       <div className="relative w-full">
