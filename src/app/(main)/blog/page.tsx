@@ -1,6 +1,6 @@
 import { createClient } from "@/prismicio";
 import { Fredericka_the_Great } from "next/font/google";
-import Wave from "../components/Wave";
+import Wave from "../../components/Wave";
 
 const fredericka = Fredericka_the_Great({
   weight: "400",
