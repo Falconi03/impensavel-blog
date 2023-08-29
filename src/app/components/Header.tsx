@@ -11,7 +11,7 @@ function Header(props: {
   const [active, setActive] = useState(false);
 
   return (
-    <header className="bg-primary text-white py-1 px-6 fixed w-full flex justify-between top-0 z-10 items-center">
+    <header className="bg-primary text-white py-1 px-6 fixed w-full flex justify-between top-0 z-20 items-center">
       <Link
         href="/"
         className="bg-[url(/impensavel.png)] bg-no-repeat bg-cover bg-center w-32 h-16"
