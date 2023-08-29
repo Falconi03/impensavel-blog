@@ -23,19 +23,12 @@ function Sobre() {
             viewport={{ once: true, amount: 0.8 }}
           >
             <p>
-              "Impensável", oh termo tão sublime, No reino das ideias, tu és a
-              fronteira, Além do horizonte do pensamento, te redescobre, Como
-              estrelas secretas em noite derradeira. Tu és a miragem nos olhos
-              do sonho, Onde a mente hesita, sem asas para voar, Um mistério
-              profundo que se desenha, Nas margens do imaginário, a dançar. És o
-              suspiro do instante sem forma, O segredo guardado nas dobras do
-              tempo, O elo que conecta o real ao impossível, Num abraço de
-              neblina, tão terno. Ah, "impensável", és a poesia dos limites, A
-              pintura de palavras que o pensamento não cria, Desafias a mente a
-              abraçar o infinito, E desvendar o enigma que a alma guia.
+              {
+                '"Impensável", oh termo tão sublime, No reino das ideias, tu és a fronteira, Além do horizonte do pensamento, te redescobre, Como estrelas secretas em noite derradeira. Tu és a miragem nos olhos do sonho, Onde a mente hesita, sem asas para voar, Um mistério profundo que se desenha, Nas margens do imaginário, a dançar. És o suspiro do instante sem forma, O segredo guardado nas dobras do tempo, O elo que conecta o real ao impossível, Num abraço de neblina, tão terno. Ah, "impensável", és a poesia dos limites, A pintura de palavras que o pensamento não cria, Desafias a mente a abraçar o infinito, E desvendar o enigma que a alma guia.'
+              }
             </p>
             <div className="flex justify-end font-semibold">
-              <span>"ChatGPT"</span>
+              <span>{'"ChatGPT"'}</span>
             </div>
           </motion.div>
         </div>
